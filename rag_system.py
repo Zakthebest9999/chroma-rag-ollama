@@ -46,7 +46,7 @@ class LocalRAGSystem:
         try:
             self.collection = self.client.get_collection(name=collection_name)
             print(f"Loaded existing collection: {collection_name}")
-        except:
+        except Exception:
             self.collection = self.client.create_collection(name=collection_name)
             print(f"Created new collection: {collection_name}")
     

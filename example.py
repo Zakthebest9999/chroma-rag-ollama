@@ -21,23 +21,23 @@ def example_custom_documents():
     
     # Add custom documents about a specific topic
     documents = [
-        """Docker is a platform that enables developers to package applications 
-        into containers—standardized executable components combining application 
-        source code with the operating system libraries and dependencies required 
-        to run that code in any environment.""",
+        "Docker is a platform that enables developers to package applications "
+        "into containers—standardized executable components combining application "
+        "source code with the operating system libraries and dependencies required "
+        "to run that code in any environment.",
         
-        """Kubernetes is an open-source container orchestration platform that 
-        automates the deployment, scaling, and management of containerized applications. 
-        It was originally designed by Google and is now maintained by the Cloud Native 
-        Computing Foundation.""",
+        "Kubernetes is an open-source container orchestration platform that "
+        "automates the deployment, scaling, and management of containerized applications. "
+        "It was originally designed by Google and is now maintained by the Cloud Native "
+        "Computing Foundation.",
         
-        """Microservices architecture is an approach to developing a single application 
-        as a suite of small services, each running in its own process and communicating 
-        with lightweight mechanisms, often an HTTP resource API.""",
+        "Microservices architecture is an approach to developing a single application "
+        "as a suite of small services, each running in its own process and communicating "
+        "with lightweight mechanisms, often an HTTP resource API.",
         
-        """CI/CD stands for Continuous Integration and Continuous Deployment. It is 
-        a method to frequently deliver apps to customers by introducing automation 
-        into the stages of app development.""",
+        "CI/CD stands for Continuous Integration and Continuous Deployment. It is "
+        "a method to frequently deliver apps to customers by introducing automation "
+        "into the stages of app development.",
     ]
     
     print(f"\nAdding {len(documents)} documents to the collection...")
